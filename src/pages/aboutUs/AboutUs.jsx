@@ -1,19 +1,20 @@
-import React from "react";
-
+import React, {useState} from "react";
 import Header from "../../subComponents/header/Header";
 import NavbarBottom from "../../subComponents/navbarBottom/NavbarBottom";
 import Footer from "../../subComponents/footer/Footer";
-
-const Catalog = () => {
-    return (
+import MainAboutUs from "../../subComponents/mainAboutUs&Shipping/MainAboutUs";
+const AboutUs = () => {
+    return(
         <>
-            <div className="boxBue">
-                <Header />
+            <div className="boxBlue">
+                <Header/>
+                <MainAboutUs />
             </div>
+
             <NavbarBottom />
             <Footer />
         </>
     );
 }
 
-export default Catalog
+export default AboutUs

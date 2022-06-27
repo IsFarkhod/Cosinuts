@@ -1,0 +1,34 @@
+.aboutUsTitleBlock{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.aboutUsTitle{
+    font-size: calc(36px + 2vw);
+    margin: 0 0 15px 0;
+}
+
+.aboutUsContentBlock{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+.aboutUsContent{
+    font-size: calc(12px + 0.6vw);
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+.bigLogoBlock{
+    width: calc(327px + 45vw);
+    height: calc(118px + 18vw);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bigLogoImg{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,49 @@
+.storeTitleBlock{
+width: 100%;
+height: 100%;text-align: center;
+}
+
+.storeTitle{
+    font-size: 55px;
+    line-height: 84px;
+    letter-spacing: 1px;
+}
+
+.storeContent{
+    width: 100%;
+    height: 100%;
+}
+
+.storeDscription{
+    width:100%;
+    height: 100%;
+    margin-bottom: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.storeImgBlock{
+    width: calc(253px + 10vw);
+    height: 270px;
+    margin-right: 50px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.storeImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.storeInform{
+    max-width: 824px;
+    height:auto; 
+}
+
+.storeSubTitle{
+    font-size: 23px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}

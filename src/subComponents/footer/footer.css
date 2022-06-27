@@ -1,0 +1,52 @@
+.fw-bold{
+    font-weight: bold;
+}
+
+.footerBlock {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footerList {
+    width: 100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+
+.footerItem {
+    list-style: none;
+    margin-bottom: 17px;
+}
+
+.footerTitle {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 0;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.footerTitle::after {
+    content: '';
+    /*width: 100px;
+    height: 2px;*/
+    width: 75px;
+    height: 1px;
+    background-color: #252525;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footerLink {
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #252525;
+}

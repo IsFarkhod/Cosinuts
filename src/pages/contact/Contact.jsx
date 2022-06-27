@@ -1,19 +1,19 @@
-import React from "react";
-
+import React, { useState } from "react";
 import Header from "../../subComponents/header/Header";
+import MainContact from "../../subComponents/mainContact/MainContact";
 import NavbarBottom from "../../subComponents/navbarBottom/NavbarBottom";
 import Footer from "../../subComponents/footer/Footer";
 
-const Catalog = () => {
+const Contact = () => {
     return (
         <>
-            <div className="boxBue">
+        <div className="boxBlue">
                 <Header />
-            </div>
+        </div>
             <NavbarBottom />
-            <Footer />
+            <Footer/>
         </>
     );
 }
 
-export default Catalog
+export default Contact

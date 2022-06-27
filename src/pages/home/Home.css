@@ -1,0 +1,12 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.boxBlue{
+    background: rgba(83, 141, 255, 0.05);
+}
