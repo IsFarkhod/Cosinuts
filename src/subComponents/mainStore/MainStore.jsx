@@ -27,7 +27,7 @@ const MainStore = () => {
             <div className="storeContentBlock">
                 <div className="storeContent">
                     {data.map((item) => (
-                        <div className="storeDscription">
+                        <div className="storeDescription">
                             <div className="storeImgBlock">
                                 <img src={item.src} className="storeImg"/>
                             </div>

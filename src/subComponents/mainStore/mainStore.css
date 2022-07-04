@@ -1,21 +1,22 @@
-.storeTitleBlock{
-width: 100%;
-height: 100%;text-align: center;
+.storeTitleBlock {
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
 
-.storeTitle{
+.storeTitle {
     font-size: 55px;
     line-height: 84px;
     letter-spacing: 1px;
 }
 
-.storeContent{
+.storeContent {
     width: 100%;
     height: 100%;
 }
 
-.storeDscription{
-    width:100%;
+.storeDescription {
+    width: 100%;
     height: 100%;
     margin-bottom: 75px;
     display: flex;
@@ -23,7 +24,7 @@ height: 100%;text-align: center;
     justify-content: center;
 }
 
-.storeImgBlock{
+.storeImgBlock {
     width: calc(253px + 10vw);
     height: 270px;
     margin-right: 50px;
@@ -31,19 +32,31 @@ height: 100%;text-align: center;
     overflow: hidden;
 }
 
-.storeImg{
+.storeImg {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.storeInform{
+.storeInform {
     max-width: 824px;
-    height:auto; 
+    height: auto;
 }
 
-.storeSubTitle{
-    font-size: 23px;
+.storeSubTitle {
+    font-size: calc(12px + 0.6vw);
     line-height: 50px;
     letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 550px) {
+    .storeDescription {
+        width: auto;
+        display: block !important;
+    }
+
+    .storeImgBlock{
+        width: 100%;
+        margin-right: 0;
+    }
 }

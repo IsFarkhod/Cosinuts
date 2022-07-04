@@ -1,0 +1,160 @@
+.patternMainBlock {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/*Две основные блоки внутри .patternDescBlock: .patternLeftBlock и .patternContentBlock*/
+
+.patternDescBlock {
+    width: auto;
+    height: 100%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+/*------------------------ PATTERN LEFT BLOCK-------------------------*/
+
+.patternLeftBlock {
+    width: 100%;
+    height: 100%;
+    margin-right: 85px;
+}
+
+.patternImgBlock {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 82px;
+    border-radius: 25px;
+}
+
+.patternImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.patternBottomList {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 50px;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.patternBottomItem {
+    width: 100%;
+    height: 100%;
+    padding: 15px 0;
+    text-align: center;
+    list-style: none;
+    background-color: rgba(83, 141, 255, 0.05);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.patternBottomItem:hover {
+    color: #fff;
+    background-color: #FEB302;
+    transition: all 0.3s easy;
+}
+
+/*---------------------------- PATTERN CONTENT BLOCK ----------------------------------*/
+
+.patternContentBlock {
+    width: auto;
+    height: 100%;
+}
+
+.patternTitleBlock {
+    margin-bottom: 259px
+}
+
+.patternTitle {
+    margin: 0;
+    font-size: calc(16px + 0.2vw);
+    line-height: 42px;
+    letter-spacing: 1px;
+    display: block;
+}
+
+.patternPrice {
+    margin-bottom: 125px;
+    color: #DA5C5C;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.patternContentBtn {
+    width: 350px;
+    height: 55px;
+    color: #fff;
+    background-color: #FEB302;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-------------------- PRODUCT BLOCK------------------------------*/
+
+.productBlock {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+    .cardTitle {
+        text-align: center
+    }
+
+    /*-------------------- PATTERN MAIN BLOCK MOBILE DEVICE--------------------*/
+
+    .patternMainBlock {
+        display: block;
+    }
+
+    .patternDescBlock {
+        display: block;
+    }
+
+    .patternImgBlock {
+        margin-top: 40px;
+        margin-bottom: 34px;
+    }
+
+    .patternTitleBlock {
+        margin-bottom: 0;
+    }
+
+    .patternPrice{
+        margin-bottom: 50px;
+    }
+
+    .sidebarBlock {
+        margin: 0;
+        margin-bottom: 25px;
+    }
+}

@@ -8,18 +8,18 @@ import Header from "../../subComponents/header/Header";
 import NavbarBottom from "../../subComponents/navbarBottom/NavbarBottom";
 import Footer from "../../subComponents/footer/Footer";
 import Sidebar from "../../subComponents/sidebar/Sidebar";
-import CardBlock from "../../subComponents/card/CardBlock";
+import CardBlock from "../../subComponents/cardCatalog/CardBlock";
 
 const Catalog = () => {
+
     return (
         <>
-            <div className="boxBue">
+            <div className="boxBlue">
                 <Header />
             </div>
             <div className="catalogTitleBlock">
                 <h2 className="catalogTitle">Наш ассортимент</h2>
             </div>
-
             <div className="cardBar">
                 <div className="cardLeftBar">
                     <Sidebar />
@@ -65,18 +65,12 @@ const Catalog = () => {
                         </div>
                     </div>
                     <div className="cardCenterBar">
-                        <CardBlock />
-                        <CardBlock />
-                        <CardBlock />
-                        <CardBlock />
-                        <CardBlock />
-                        <CardBlock />
-                        <CardBlock />
-                        <CardBlock />
-                        <CardBlock />
-                        <CardBlock />
-                        <CardBlock />
-                        <CardBlock />
+                        <div className="card">
+                            <CardBlock />
+                            <CardBlock />
+                            <CardBlock />
+                        </div>
+
                     </div>
                 </div>
             </div>

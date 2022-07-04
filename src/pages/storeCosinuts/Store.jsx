@@ -1,6 +1,4 @@
 import React from 'react'
-
-
 import Header from "../../subComponents/header/Header.jsx"
 import NavbarBottom from "../../subComponents/navbarBottom/NavbarBottom.jsx"
 import Footer from "../../subComponents/footer/Footer.jsx"

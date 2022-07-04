@@ -1,20 +1,20 @@
-import React, { useState } from "react";
+import React from 'react';
 import Header from "../../subComponents/header/Header";
-import MainContact from "../../subComponents/mainContact/MainContact";
 import NavbarBottom from "../../subComponents/navbarBottom/NavbarBottom";
 import Footer from "../../subComponents/footer/Footer";
+import CardPattern from '../../subComponents/cardPattern/CardPattern';
 
-const Contact = () => {
+const CardItem = () => {
     return (
         <>
-        <div className="boxBlue">
+            <div className='boxBlue'>
                 <Header />
-                <MainContact />
-        </div>
+            </div>
+            <CardPattern/>
             <NavbarBottom />
-            <Footer/>
+            <Footer />
         </>
     );
 }
 
-export default Contact
+export default CardItem;

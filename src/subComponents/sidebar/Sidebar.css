@@ -4,32 +4,46 @@
 }
 
 .sidebarList {
-    width: 391px;
-    height: auto;
+    width: 350px;
+    height: 550px;
     margin: 0;
     padding: 46px;
     background: rgba(83, 141, 255, 0.05);
     border-radius: 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .sidebarItem {
     margin-bottom: 26px;
     list-style: none;
+    cursor: pointer;
 }
 
 .sidebarItem:last-child{
     margin-bottom: 0;
 }
 .sidebarTitle {
-    font-size: 21px;
+    font-size: 23px;
     font-weight: 700;
     line-height: 25px;
 }
 
 .sidebarBtn {
     margin: 0;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 21px;
     letter-spacing: 1px;
     cursor: pointer;
+}
+@media only screen and (max-width: 550px){
+    .catalogTitle{
+        font-size: 35px;
+    }
+    .sidebarList{
+        width: 350px;
+        margin: 0 65px;
+    }
 }

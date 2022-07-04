@@ -73,7 +73,7 @@ body {
     margin-right: 35px;
 }
 
-.Phone{
+.Phone {
     margin: 0 50px 0 8px;
 }
 
@@ -114,8 +114,69 @@ body {
     justify-content: center;
 }
 
-/* Адаптив */
+/*------------------------------ STICKY SCROLL HEADER ---------------------------*/
 
-@media only screen and (min-width:950px) and (max-width:1200px) {
-    
+.activeScroll {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 25px 75px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+    background-color: rgb(216, 230, 255);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+/*------------------------------ STICKY SCROLL HEADER END ---------------------------*/
+.mob {
+    display: none;
+}
+
+/* Адаптив */
+@media only screen and (min-width: 500px) and(max-width: 1200px){
+    .headerLogo{
+        width: 125px;
+        height: auto;
+    }
+    .header{
+        margin: 0 45px
+    }
+
+    .listLink, .Favorites, .Box, .bottomLink, .bottomFavoritesLink, .bottomShopingCardBtn{
+        font-size: 16px
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .headerLeftBlock,
+    .headerRightBlock {
+        display: block;
+    }
+
+    .header {
+        display: none;
+        margin: 0 25px;
+        padding-top: 25px
+    }
+
+    .list {
+        display: block;
+    }
+
+    .Phone {
+        margin: 8px;
+    }
+
+    .activeScroll {
+        display: none;
+    }
+
+    .mob {
+        display: block;
+    }
 }

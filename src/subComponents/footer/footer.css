@@ -1,4 +1,4 @@
-.fw-bold{
+.fw-bold {
     font-weight: bold;
 }
 
@@ -13,7 +13,7 @@
 
 .footerList {
     width: 100%;
-    height:100%;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -49,4 +49,10 @@
     line-height: 24px;
     text-decoration: none;
     color: #252525;
+}
+
+@media only screen and (max-width: 500px) {
+    .d-none {
+        display: none;
+    }
 }

@@ -11,8 +11,8 @@
     justify-content: center;
 }
 
-.contentBlock{
-    width:100%;
+.contentBlock {
+    width: 100%;
     padding: 0 12px;
 }
 
@@ -34,7 +34,7 @@
     font-size: calc(12px + 1vw);
     line-height: 50px;
     letter-spacing: 1px;
-    margin-top:25px;
+    margin-top: 25px;
 }
 
 .searchBlock {
@@ -50,7 +50,7 @@
     font-size: 23px;
     line-height: 28px;
     letter-spacing: 1px;
-    background-color:  rgba(83, 141, 255, 0.05);
+    background-color: #fff;
     border: none;
     /*border-radius: 25px;*/
     border-top-left-radius: 25px;
@@ -90,8 +90,8 @@
 
 .imgLeft,
 .imgRight {
-    width: 270px;
-    height: 400px;
+    width: calc(131px + 9vw);
+    height: calc(220px + 13vw);
     z-index: 10;
     position: absolute;
 
@@ -105,4 +105,67 @@
 .imgRight {
     bottom: -40px;
     right: -40px;
+}
+
+@media screen and (max-width: 500px) {
+.boxContainer{margin-top: 55px}
+
+    .container {
+        display: block;
+    }
+
+    .mainTitle{
+        line-height: 100px
+    }
+
+    .imgBlock {
+        width: 100%;
+        height: 345px;
+        display: block;
+    }
+
+    .imgBackground {
+        width: 0;
+        height: 0;
+    }
+
+    .imgLeft,
+    .imgRight {
+        top: 0;
+    }
+
+    .imgRight {
+        top: 35px;
+        left: 125px;
+    }
+
+    .searchBlock{
+        margin-bottom: 33px;
+    }
+
+    .searchInput{
+        height: 55px;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .searchBtn{
+        width: 100px;
+        height: 55px;
+        font-size: 18px;
+    }
+
+    .navbarList {
+        flex-wrap: wrap;
+    }
+
+    .bottomBlock {
+        display: none !important;
+    }
+
+    .footerBlock {
+        display: block !important;
+    }
+
+
 }

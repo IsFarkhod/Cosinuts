@@ -8,5 +8,11 @@ body{
 }
 
 .boxBlue{
-    background: rgba(83, 141, 255, 0.05);
+    width: auto;
+    height: auto;
+    background-color:rgb(234, 239, 252);
+}
+
+@media only screen and (max-width: 1200px){
+  
 }

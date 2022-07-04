@@ -19,7 +19,6 @@ const Main = () => {
                         <button type='submit' className='searchBtn'>
                             <FontAwesomeIcon icon={faMagnifyingGlass} />
                         </button>
-
                     </div>
                 </div>
                 <div className='imgBlock'>
@@ -29,7 +28,6 @@ const Main = () => {
                 </div>
             </div>
         </div>
-
     );
 }
 

@@ -67,12 +67,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .cardBarNavigation{
     font-size: 25px;
     line-height: 23px;
     color: rgba(54, 54, 54, 0.35);
+    cursor: pointer;
 }
 
 .cardCenterBar{
@@ -83,4 +85,24 @@
     align-items:center;
     justify-content: flex-start;
     flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 550px){
+    .cardTopBar{
+        margin-bottom: 50px;
+        display: block;
+    }
+    .cardBar{
+        display: block;
+    }
+
+    .cardBlock{
+        max-width: 308px;
+        max-height: 535px;
+        margin: 0 85px 15px 85px;
+        display: block;
+    }
+    .cardLink{
+        margin: 0;
+    }
 }

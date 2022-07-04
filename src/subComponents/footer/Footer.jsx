@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className="boxContainer">
             <div className="footerBlock">
-                <ul className="footerList">
+                <ul className="footerList d-none">
                     <li className="footerItem"><h3 className="footerTitle">Раздел 1</h3></li>
                     <li className="footerItem"><a href="/" className="footerLink">Сухофрукты</a></li>
                     <li className="footerItem"><a href="/" className="footerLink">Орехи</a></li>
@@ -14,7 +14,7 @@ const Footer = () => {
                     <li className="footerItem"><a href="/" className="footerLink">Цукаты</a></li>
                     <li className="footerItem"><a href="/" className="footerLink">Экзотические сухофрукты</a></li>
                 </ul>
-                <ul className="footerList">
+                <ul className="footerList d-none">
                     <li className="footerItem"><h3 className="footerTitle">Раздел 2</h3></li>
                     <li className="footerItem"><a href="/" className="footerLink">Восточные сладости</a></li>
                     <li className="footerItem"><a href="/" className="footerLink">Семена и бобовые</a></li>
@@ -22,7 +22,7 @@ const Footer = () => {
                     <li className="footerItem"><a href="/" className="footerLink">Бакалея</a></li>
                     <li className="footerItem"><a href="/" className="footerLink">Специи</a></li>
                 </ul>
-                <ul className="footerList">
+                <ul className="footerList d-none">
                     <li className="footerItem"><h3 className="footerTitle">Раздел 1</h3></li>
                     <li className="footerItem"><a href="/" className="footerLink">Сухофрукты</a></li>
                     <li className="footerItem"><a href="/" className="footerLink">Орехи</a></li>
